@@ -1,0 +1,20 @@
+.a{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/019/023/945/small_2x/web-button-color-icon-png.png");
+    height: 100px;
+    width: 375px;
+    background-size: 380px;
+    background-position: center;
+    /*background-color: #555;*/
+}
+
+.info{
+    background-color: #aaa;
+    border-left: 5px solid #555;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top: 5px solid #555;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    padding: 2px;
+    font-weight: 800;
+}

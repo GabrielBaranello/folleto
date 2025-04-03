@@ -1,0 +1,50 @@
+{
+    "mem_ram_16" :{
+        "precio":"$$$"
+    },
+    "mem_ram_8" :{
+        "precio":"$$$"
+    },
+    "mouse" :{
+        "precio":"$$$"
+    },
+    "mouse_rgb" :{
+        "precio":"$$$"
+    },
+    "mem_rom" :{
+        "precio":"$$$"
+    },
+    "auricular" :{
+        "precio":"$$$"
+    },
+    "tecla": {
+        "precio":"$$$"
+    },
+    "ventilador" :{
+        "precio":"$$$"
+    },
+    "parlante":{
+        "precio":"$$$"
+    },
+    "ventilador_rgb" :{
+        "precio":"$$$"
+    },
+    "tira_led_rgb" :{
+        "precio":"$$$"
+    },
+    "pantalla" :{
+        "precio":"$$$"
+    },
+    "placa_madre" :{
+        "precio":"$$$"
+    },
+    "prosesador" :{
+        "precio":"$$$"
+    },
+    "fuente" :{
+        "precio":"$$$"
+    },
+    "cables" :{
+        "precio":"$$$"
+    }
+}

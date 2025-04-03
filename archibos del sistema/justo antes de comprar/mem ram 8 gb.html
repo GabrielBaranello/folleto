@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../css/j-antes-de-comprar.css">
+        <title>Electro-Rep</title>
+    </head>
+    <body>
+        <img src="https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/imagenes/MEMORIA_RAM_8GB-removebg-preview.png">
+        <ul>
+            <li>Espacio:16 Gb </li>
+            <li>Velocidad: ?? Mh </li>
+        </ul>
+        <h2 id="titulo">precio</h2>
+        <button id="trol">Comprar</button>
+        <button id="principal">Cancelar</button>
+        
+        <script src="https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/urls.json.js"></script>
+        <!-- Script dentro del HTML -->
+        <script>
+            // URL del archivo JSON centralizado
+            const jsonUrl = 'https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/precios.json';
+    
+            // Nombre del archivo actual
+            const archivoActual = 'mem_ram_8';
+    
+            // Cargar los datos del JSON
+            fetch(jsonUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // Verificar si hay datos para este archivo
+                    if (data[archivoActual]) {
+                        // Modificar el texto del <h2>
+                        document.getElementById('titulo').textContent = data[archivoActual];
+                    }
+                })
+                .catch(error => console.error('Error al cargar los datos:', error));
+        </script>
+    </body>
+</html>

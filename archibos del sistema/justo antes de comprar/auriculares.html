@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../css/j-antes-de-comprar.css">
+        <title>Electro-Rep</title>
+    </head>
+    <body>
+        <img src="https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/imagenes/AURICULARES-removebg-preview.png">
+        <ul>
+            <li>Frecuencia: 90h a 15Khs </li>
+            <li>Forma:campana</li>
+            <li>Luces: rgb</li>
+            <li>Tipo:ploug alalambrico y bluetooth</li>
+        <ul>
+
+        <button id="trol">Comprar</button>
+        <button id="principal">Cancelar</button>
+
+        <script src="https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/urls.json.js"></script>
+        <!-- Script dentro del HTML -->
+        <script>
+            // URL del archivo JSON centralizado
+            const jsonUrl = 'https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/precios.json';
+    
+            // Nombre del archivo actual
+            const archivoActual = 'auricular';
+    
+            // Cargar los datos del JSON
+            fetch(jsonUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // Verificar si hay datos para este archivo
+                    if (data[archivoActual]) {
+                        // Actualizar los textos de los <h2>
+                        Object.keys(data[archivoActual]).forEach(id => {
+                            const elemento = document.getElementById(id);
+                            if (elemento) {
+                                elemento.textContent = data[archivoActual][id];
+                            }
+                        });
+                    }
+                })
+                .catch(error => console.error('Error al cargar los datos:', error));
+        </script>
+    </body>
+</html>
+
