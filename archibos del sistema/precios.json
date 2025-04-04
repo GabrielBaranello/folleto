@@ -1,18 +1,18 @@
 {
-    "mem_ram_16":"$$$"
-     "mem_ram_8":"$$$"
-     "mouse":"$$$"
-     "mouse_rgb":"$$$"
-     "mem_rom":"$$$"
-     "auricular":"$$$"
-     "tecla":"$$$"
-     "ventilador":"$$$"
-     "parlante":"$$$"
-     "ventilador_rgb":"$$$"
-     "tira_led_rgb":"$$$"
-     "pantalla":"$$$"
-     "placa_madre":"$$$"
-     "prosesador":"$$$"
-     "fuente":"$$$"
-     "cables":"$$$"
+    "mem_ram_16": "$$$",
+    "mem_ram_8": "$$$",
+    "mouse": "$$$",
+    "mouse_rgb": "$$$",
+    "mem_rom": "$$$",
+    "auricular": "$$$",
+    "tecla": "$$$",
+    "ventilador": "$$$",
+    "parlante": "$$$",
+    "ventilador_rgb": "$$$",
+    "tira_led_rgb": "$$$",
+    "pantalla": "$$$",
+    "placa_madre": "$$$",
+    "prosesador": "$$$",
+    "fuente": "$$$",
+    "cables": "$$$"
 }
