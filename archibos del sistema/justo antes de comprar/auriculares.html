@@ -26,16 +26,23 @@
         const archivoActual = 'auricular';
 
         // Cargar los datos del JSON
-        fetch(jsonUrl)
-            .then(response => response.json())
-            .then(data => {
-                // Verificar si hay datos para este archivo
-                if (data[archivoActual]) {
-                    // Modificar el texto del <h2>
-                    document.getElementById('titulo').textContent = data[archivoActual];
-                }
-            })
-            .catch(error => console.error('Error al cargar los datos:', error));
+fetch(jsonUrl)
+    .then(response => response.json())
+    .then(data => {
+        // Verificar si hay datos para este archivo
+        if (data[archivoActual]) {
+            const texto = data[archivoActual]; // Extraer el texto correspondiente
+            if (typeof texto === 'string') { // Asegurarse de que sea una cadena
+                document.getElementById('titulo').textContent = texto;
+            } else {
+                console.error('El valor no es una cadena:', texto);
+            }
+        } else {
+            console.error('No se encontraron datos para:', archivoActual);
+        }
+    })
+    .catch(error => console.error('Error al cargar los datos:', error));
+
     </script>
     </body>
 </html>
