@@ -4,8 +4,7 @@
 Se devera tener en cuenta que si compras algo no tendrás devolución asi que debes de tener cuidado al hacerlo.
 
 ### Links:
-Si quieres comprar directamente accede al siguiente enlace:
-https://gabrielbaranello.github.io/folleto/pagina%20principal.html      
+Si quieres comprar directamente as clic [aqui] (https://gabrielbaranello.github.io/folleto/pagina%20principal.html)      
 En cambio si quieres iniciar sesión ingresa a este  otro :
 https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/formulario.html
 
