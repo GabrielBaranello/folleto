@@ -70,7 +70,7 @@ https://ar.linkedin.com/in/soy-dalto
 ### Credits and copyright:
 The HTML and CSS are my own creation (Gabriel Baranello), while the Javascript is the work of Microsoft's AI called Copilot.
 Teo was in charge of the physical brochure, images, and prices.
-
+<div></div>
 <span> Clarification: What was stated in the Warning section is false; you can't actually compare anything. Teo and Gabi </span>
 <div></div>
 <span> Aclaracion: Lo dicho en Advertencia es falso; en realidad no puedes comparar nada Teo y Gabi </span>
