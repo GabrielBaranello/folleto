@@ -78,12 +78,10 @@ Teo was in charge of the physical brochure, images, and prices.
 <style>
 span{
     font-size: 7px;
-    color: #333;
+        color: #ddd
 }
 #todo{
     margin: 0;
-    background-color: #111;
-    color: #aaa;
 }
 </style>
 </div>
