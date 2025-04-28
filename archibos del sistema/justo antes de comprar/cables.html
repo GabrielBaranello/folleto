@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../css/j-antes-de-comprar.css">
+        <title>Electro-Rep</title>
+    </head>
+    <body>
+        <img id="image" src="https://cdn-icons-png.flaticon.com/512/44/44091.png" alt="Imagen principal">
+        <a href="sdfgsfhdfhd">prueba</a>
+        <ul>
+            <li>Largo: 0.5M</li>
+        </ul>
+        <div></div>
+        <select id="menu1" onchange="updateMenu2();">
+            <option value="">Categoria</option>
+            <option value="opcion1">Ventilador</option>
+            <option value="opcion2">4 pines macho</option>
+            <option value="opcion3">Todo</option>
+        </select>
+        
+        <select id="dropdown" onchange="updateImage();">
+
+        </select>
+        
+        <h2 id="titulo">Precio</h2>
+        <button id="trol">Comprar</button>
+        <button id="principal">Cancelar</button>
+        <script src="https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/JavaScript/botones.js"></script>
+        <script src="https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/JavaScript/precios.js"></script>
+        <script>
+        // Función para actualizar las opciones del segundo menú
+        function updateMenu2() {
+            const menu1 = document.getElementById("menu1");
+            const menu2 = document.getElementById("dropdown");
+            menu2.innerHTML = '<option value="https://cdn-icons-png.flaticon.com/512/44/44091.png">Subcategoria</option>';
+
+            if (menu1.value === "opcion1") {
+                menu2.innerHTML += '<option value="../imagenes/cables/vent v2.jpg">Aislado</option>';
+                menu2.innerHTML += '<option value="../imagenes/cables/vent v1.jpg">Normal</option>';
+            } else if (menu1.value === "opcion2") {
+                menu2.innerHTML += '<option value="../imagenes/cables/4 v2.jpg">4 pines spliter (duplicado)</option>';
+                menu2.innerHTML += '<option value="../imagenes/cables/4 v1 m.jpg">4 pines macho</option>';
+                menu2.innerHTML += '<option value="../imagenes/cables/4 v1.jpg">4 pines (en cuadrado)</option>';
+            } else if (menu1.value === "opcion3") {
+                menu2.innerHTML += '<option value="../imagenes/cables/completo spliter.jpg">Spliter (duplicado)</option>';
+                menu2.innerHTML += '<option value="../imagenes/cables/completo.jpg">Dividido</option>';
+                menu2.innerHTML += '<option value="../imagenes/cables/completo en 1.jpg">Todo junto</option>';
+            }
+        }
+
+        // Función para cambiar la imagen al seleccionar una opción en el segundo menú
+        function updateImage() {
+            const menu2 = document.getElementById("dropdown");
+            const image = document.getElementById("image");
+            image.src = menu2.value; // Actualiza la imagen según el valor seleccionado
+        }
+        </script>
+    </body>
+</html>
