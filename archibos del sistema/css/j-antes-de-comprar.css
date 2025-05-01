@@ -1,11 +1,12 @@
-.icono{
-    border: #000 100px solid;
-    border-radius: 10px;
-}
-.logo{
-    height: 50px;
-    width: 50px;
+#logo{
+    height: 150px;
 }
 span{
     color: #fff;
+}
+h1{
+    font-size: 100px;
+}
+div{
+    height: 100px;
 }
