@@ -18,7 +18,7 @@ const buttonsConfig = [
     { id: 'placa_madre', url: 'https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/justo%20antes%20de%20comprar/mem%20rom.html' },
     { id: 'prosesador', url: 'https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/justo%20antes%20de%20comprar/mem%20rom.html' },
     { id: 'fuente', url: 'https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/justo%20antes%20de%20comprar/mem%20rom.html' },
-    { id: 'cables', url: 'https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/justo%20antes%20de%20comprar/mem%20rom.html' }
+    { id: 'cables', url: 'https://gabrielbaranello.github.io/folleto/archibos%20del%20sistema/justo%20antes%20de%20comprar/cables.html' }
 ];
 
 // Asignar eventos a cada botón
